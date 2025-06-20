@@ -43,7 +43,19 @@ Here are some interesting things I learned:
   ```
 
   * It said `"jar verified."` for correct setup.
+  * You can set minifyEnabled and shrinkResources to false, and check the before and after app sizes in .aab files. My .aab path is `build/app/outputs/bundle/prodRelease/app-prod-release.aab`
 
 > ⚠️ **Warning:** Don't try to store secrets in `gradle.properties`. GitGuardian flagged my code 😦
+
+You can check out my repo as a reference! 
+
+https://github.com/Learnathon-By-Geeky-Solutions/flutterfly/tree/main
+
+And here are the blogs I looked up:
+
+[1] https://dev.to/teerasej/step-by-step-to-publish-your-flutter-project-as-andriod-app-bundle-1bpe
+
+[2] https://medium.com/@ChanakaDev/simplifying-android-proguard-rules-in-flutter-apps-2bfa6a1d5e68 
+
 
 ---
